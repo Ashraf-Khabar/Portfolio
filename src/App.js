@@ -2,6 +2,7 @@ import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import React from "react";
 import NavBar from "./components/navbar";
 import { useState } from "react";
+import Home from "./components/home";
 
 function App() {
   const [isChecked, setIsChecked] = useState(false);
@@ -10,11 +11,11 @@ function App() {
   return (
     <Router>
       <div className="App">
-        <NavBar isChecked={isChecked} setDarkModeValue={setDarkModeValue} darkModeValue={darkModeValue} setIsChecked={setIsChecked}/>
+        <NavBar isChecked={isChecked} setDarkModeValue={setDarkModeValue} darkModeValue={darkModeValue} setIsChecked={setIsChecked} />
         <div className="container">
           <Switch>
-            <Route>
-              
+            <Route exact path='/'>
+              <Home isChecked={isChecked} setDarkModeValue={setDarkModeValue} darkModeValue={darkModeValue} setIsChecked={setIsChecked} />
             </Route>
           </Switch>
         </div>
