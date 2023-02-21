@@ -39,7 +39,7 @@ const Home = ({ isChecked, setIsChecked, darkModeValue, setDarkModeValue }) => {
             </section>
 
             <section>
-                <div data-theme={darkModeValue} className="artboard min-x-screen">
+                <div data-theme={darkModeValue} className="artboard min-x-screen min-h-1 items-center justify-center flex">
                     <div className="stats shadow " >
                         <div className="stat">
                             <div className="stat-figure text-secondary">
