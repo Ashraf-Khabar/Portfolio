@@ -70,14 +70,14 @@ const Home = ({ isChecked, setIsChecked, darkModeValue, setDarkModeValue }) => {
             </section>
             <section>
                 <div data-theme={darkModeValue} className="artboard min-x-screen min-h-screen items-center justify-center flex">
-                    <div className="grid mb-8 border border-gray-200 rounded-lg shadow-sm dark:border-gray-700 md:mb-12 md:grid-cols-2">
+                    <div className="grid mb-8 border rounded-lg shadow-sm  md:mb-12 md:grid-cols-2">
                         <div className="card w-96 bg-base-100 shadow-xl">
                             <figure><img src="https://uploads-ssl.webflow.com/60ec34540d013784844d2ee2/61d42d538aec6733243470a7_Python-logo.png" alt="Shoes" /></figure>
                             <div className="card-body">
                                 <h2 className="card-title">Shoes!</h2>
                                 <p>If a dog chews shoes whose shoes does he choose?</p>
                                 <div className="card-actions justify-end">
-                                    <button className="btn btn-primary">Buy Now</button>
+                                    <button className="btn btn-primary">See more</button>
                                 </div>
                             </div>
                         </div>
@@ -87,7 +87,7 @@ const Home = ({ isChecked, setIsChecked, darkModeValue, setDarkModeValue }) => {
                                 <h2 className="card-title">Shoes!</h2>
                                 <p>If a dog chews shoes whose shoes does he choose?</p>
                                 <div className="card-actions justify-end">
-                                    <button className="btn btn-primary">Buy Now</button>
+                                    <button className="btn btn-primary">See more</button>
                                 </div>
                             </div>
                         </div>
@@ -97,7 +97,7 @@ const Home = ({ isChecked, setIsChecked, darkModeValue, setDarkModeValue }) => {
                                 <h2 className="card-title">Shoes!</h2>
                                 <p>If a dog chews shoes whose shoes does he choose?</p>
                                 <div className="card-actions justify-end">
-                                    <button className="btn btn-primary">Buy Now</button>
+                                    <button className="btn btn-primary">See more</button>
                                 </div>
                             </div>
                         </div>
@@ -107,7 +107,7 @@ const Home = ({ isChecked, setIsChecked, darkModeValue, setDarkModeValue }) => {
                                 <h2 className="card-title">Shoes!</h2>
                                 <p>If a dog chews shoes whose shoes does he choose?</p>
                                 <div className="card-actions justify-end">
-                                    <button className="btn btn-primary">Buy Now</button>
+                                    <button className="btn btn-primary">See more</button>
                                 </div>
                             </div>
                         </div>
