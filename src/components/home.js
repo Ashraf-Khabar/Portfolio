@@ -11,7 +11,7 @@ const Home = ({ isChecked, setIsChecked, darkModeValue, setDarkModeValue }) => {
                         <div>
                             <h1 className="text-5xl font-bold">Achraf KHABAR</h1>
                             <p className="py-6">
-                                As a Moroccan software engineering student, you have a keen interest in the world of IT and science, particularly in mathematics, web development, and problem-solving. You have experience working with various programming languages and web development frameworks, such as:
+                                As a Moroccan software engineering student, I have a keen interest in the world of IT and science, particularly in mathematics, web development, and problem-solving. You have experience working with various programming languages and web development frameworks, such as:
 
                                 C/C++ using SDL2 for game development
                                 Java using Android Studio for Android app development
@@ -65,84 +65,54 @@ const Home = ({ isChecked, setIsChecked, darkModeValue, setDarkModeValue }) => {
                             <div className="stat-value text-sky-600">10 %</div>
                             <div className="stat-desc">21% more than last month</div>
                         </div>
-
-                        <div className="stat">
-                            <div className="stat-figure text-secondary">
-                                <div className="avatar online">
-                                    <div className="w-16 rounded-full">
-                                        <img src="https://avatars.githubusercontent.com/u/95541956?s=400&u=907244470dd4e5d4a047be77216b928ccfdac6dc&v=4" />
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="stat-value">Achraf khabar</div>
-                            <div className="stat-title">My skills</div>
-                            <div className="stat-desc text-secondary"></div>
-                        </div>
-
                     </div>
                 </div>
             </section>
             <section>
                 <div data-theme={darkModeValue} className="artboard min-x-screen min-h-screen items-center justify-center flex">
-                    <div className="card w-96 bg-base-100 shadow-xl">
-                        <figure><img src="/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg" alt="Shoes" /></figure>
-                        <div className="card-body">
-                            <h2 className="card-title">
-                                Shoes!
-                                <div className="badge badge-secondary">NEW</div>
-                            </h2>
-                            <p>If a dog chews shoes whose shoes does he choose?</p>
-                            <div className="card-actions justify-end">
-                                <div className="badge badge-outline">Fashion</div>
-                                <div className="badge badge-outline">Products</div>
+                    <div className="grid mb-8 border border-gray-200 rounded-lg shadow-sm dark:border-gray-700 md:mb-12 md:grid-cols-2">
+                        <div className="card w-96 bg-base-100 shadow-xl">
+                            <figure><img src="https://uploads-ssl.webflow.com/60ec34540d013784844d2ee2/61d42d538aec6733243470a7_Python-logo.png" alt="Shoes" /></figure>
+                            <div className="card-body">
+                                <h2 className="card-title">Shoes!</h2>
+                                <p>If a dog chews shoes whose shoes does he choose?</p>
+                                <div className="card-actions justify-end">
+                                    <button className="btn btn-primary">Buy Now</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="card w-96 bg-base-100 shadow-xl">
+                            <figure><img src="https://www.oxygenxml.com/img/ls_xslt_transform.png" alt="Shoes" /></figure>
+                            <div className="card-body">
+                                <h2 className="card-title">Shoes!</h2>
+                                <p>If a dog chews shoes whose shoes does he choose?</p>
+                                <div className="card-actions justify-end">
+                                    <button className="btn btn-primary">Buy Now</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="card w-96 bg-base-100 shadow-xl">
+                            <figure><img src="https://miro.medium.com/max/1400/1*CpDidbInbG4Er_0j_hknFQ.jpeg" alt="Shoes" /></figure>
+                            <div className="card-body">
+                                <h2 className="card-title">Shoes!</h2>
+                                <p>If a dog chews shoes whose shoes does he choose?</p>
+                                <div className="card-actions justify-end">
+                                    <button className="btn btn-primary">Buy Now</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="card w-96 bg-base-100 shadow-xl">
+                            <figure><img src="https://miro.medium.com/max/680/0*whPt9R9BXJ5xotoh.jpg" alt="Shoes" /></figure>
+                            <div className="card-body">
+                                <h2 className="card-title">Shoes!</h2>
+                                <p>If a dog chews shoes whose shoes does he choose?</p>
+                                <div className="card-actions justify-end">
+                                    <button className="btn btn-primary">Buy Now</button>
+                                </div>
                             </div>
                         </div>
                     </div>
 
-                    <div className="card w-96 bg-base-100 shadow-xl">
-                        <figure><img src="/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg" alt="Shoes" /></figure>
-                        <div className="card-body">
-                            <h2 className="card-title">
-                                Shoes!
-                                <div className="badge badge-secondary">NEW</div>
-                            </h2>
-                            <p>If a dog chews shoes whose shoes does he choose?</p>
-                            <div className="card-actions justify-end">
-                                <div className="badge badge-outline">Fashion</div>
-                                <div className="badge badge-outline">Products</div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div className="card w-96 bg-base-100 shadow-xl">
-                        <figure><img src="/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg" alt="Shoes" /></figure>
-                        <div className="card-body">
-                            <h2 className="card-title">
-                                Shoes!
-                                <div className="badge badge-secondary">NEW</div>
-                            </h2>
-                            <p>If a dog chews shoes whose shoes does he choose?</p>
-                            <div className="card-actions justify-end">
-                                <div className="badge badge-outline">Fashion</div>
-                                <div className="badge badge-outline">Products</div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div className="card w-96 bg-base-100 shadow-xl">
-                        <figure><img src="/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg" alt="Shoes" /></figure>
-                        <div className="card-body">
-                            <h2 className="card-title">
-                                Shoes!
-                                <div className="badge badge-secondary">NEW</div>
-                            </h2>
-                            <p>If a dog chews shoes whose shoes does he choose?</p>
-                            <div className="card-actions justify-end">
-                                <div className="badge badge-outline">Fashion</div>
-                                <div className="badge badge-outline">Products</div>
-                            </div>
-                        </div>
-                    </div>
                 </div>
             </section>
 
