@@ -6,13 +6,13 @@ import Home from "./components/home";
 
 function App() {
   const [isChecked, setIsChecked] = useState(false);
-  const [darkModeValue, setDarkModeValue] = useState('halloween');
+  const [darkModeValue, setDarkModeValue] = useState('fantasy');
 
   return (
     <Router>
-      <div className="App">
+      <div>
         <NavBar isChecked={isChecked} setDarkModeValue={setDarkModeValue} darkModeValue={darkModeValue} setIsChecked={setIsChecked} />
-        <div className="container">
+        <div>
           <Switch>
             <Route exact path='/'>
               <Home isChecked={isChecked} setDarkModeValue={setDarkModeValue} darkModeValue={darkModeValue} setIsChecked={setIsChecked} />
