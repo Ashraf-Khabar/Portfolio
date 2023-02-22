@@ -3,6 +3,7 @@ import React from "react";
 import NavBar from "./components/navbar";
 import { useState } from "react";
 import Home from "./components/home";
+import Footer from "./components/footer";
 
 function App() {
   const [isChecked, setIsChecked] = useState(false);
@@ -15,10 +16,11 @@ function App() {
         <div>
           <Switch>
             <Route exact path='/'>
-              <Home isChecked={isChecked} setDarkModeValue={setDarkModeValue} darkModeValue={darkModeValue} setIsChecked={setIsChecked} />
+              <Home darkModeValue={darkModeValue} />
             </Route>
           </Switch>
         </div>
+        <Footer darkModeValue={darkModeValue} />
       </div>
     </Router>
 
