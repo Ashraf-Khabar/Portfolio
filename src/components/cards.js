@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Cards = ({ darkModeValue }) => {
 
@@ -49,9 +50,10 @@ const Cards = ({ darkModeValue }) => {
                         </div>
                     </a>
                 </div>
+                {/*card 2*/}
                 <div class="m-auto overflow-hidden rounded-lg shadow-lg cursor-pointer h-90 w-60 md:w-80">
                     <a href="https://github.com/Ashraf-Khabar/ENSAT_Internship" class="block w-full h-full">
-                        <img alt="blog photo" src="https://miro.medium.com/max/1400/1*hJ1tgnNp8MBBjBFPQwFENw.png" class="object-cover w-full max-h-40" />
+                        <img alt="blog photo" src="https://miro.medium.com/max/1400/1*CpDidbInbG4Er_0j_hknFQ.jpeg" class="object-cover w-full max-h-40" />
                         <div class="w-full p-4 bg-white dark:bg-gray-800">
                             <p class="font-medium text-indigo-500 text-md">
                                 ENSAT_Internship
@@ -74,9 +76,10 @@ const Cards = ({ darkModeValue }) => {
                         </div>
                     </a>
                 </div>
+                {/*card 3 */}
                 <div class="m-auto overflow-hidden rounded-lg shadow-lg cursor-pointer h-90 w-60 md:w-80">
                     <a href="https://github.com/Ashraf-Khabar/Blogosss" class="block w-full h-full">
-                        <img alt="blog photo" src="https://miro.medium.com/max/680/0*whPt9R9BXJ5xotoh.jpg" class="object-cover w-full max-h-40" />
+                        <img alt="blog photo" src="https://raw.githubusercontent.com/sumitc91/sumitc91.github.io/master/Blogs/23a73932-d77d-4bd4-b4ab-06ea4d5183d3_c-sharp-dotnet.jpg" class="object-cover w-full max-h-40" />
                         <div class="w-full p-4 bg-white dark:bg-gray-800">
                             <p class="font-medium text-indigo-500 text-md">
                                 Blogosss
@@ -98,6 +101,14 @@ const Cards = ({ darkModeValue }) => {
                             </div>
                         </div>
                     </a>
+                </div>
+            </div>
+
+            <div class="flex items-end justify-between mb-12 header">
+
+                <div class="text-end">
+                    <br /><br />
+                    <Link to='/portfolio' className="btn btn-active btn-erro">See More</Link>
                 </div>
             </div>
         </div>

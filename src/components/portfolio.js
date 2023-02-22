@@ -93,7 +93,7 @@ const Portfolio = ({ darkModeValue }) => {
 
                 {/*card 4 */}
                 <div class="m-auto overflow-hidden rounded-lg shadow-lg cursor-pointer h-90 w-60 md:w-80">
-                    <a href="https://github.com/Ashraf-Khabar/StudentDocumentGenerator" class="block w-full h-full">
+                    <a href="https://github.com/Ashraf-Khabar/StudentGradeManager" class="block w-full h-full">
                         <img alt="blog photo" src="https://innovativeeducation.com.bd/wp-content/uploads/2022/01/Laravel-9-Whats-New-features-in-Laravel-9.jpg" class="object-cover w-full max-h-40" />
                         <div class="w-full p-4 bg-white dark:bg-gray-800">
                             <p class="font-medium text-indigo-500 text-md">
@@ -110,7 +110,7 @@ const Portfolio = ({ darkModeValue }) => {
                                         language/technologies
                                     </p>
                                     <p class="text-gray-400 dark:text-gray-300">
-                                        PHP - Laravel9 - Oracle Db 21c 
+                                        PHP - Laravel9 - Oracle Db 21c
                                     </p>
                                 </div>
                             </div>
@@ -120,14 +120,15 @@ const Portfolio = ({ darkModeValue }) => {
 
                 {/*card 5 */}
                 <div class="m-auto overflow-hidden rounded-lg shadow-lg cursor-pointer h-90 w-60 md:w-80">
-                    <a href="https://github.com/Ashraf-Khabar/Blogosss" class="block w-full h-full">
-                        <img alt="blog photo" src="https://miro.medium.com/max/680/0*whPt9R9BXJ5xotoh.jpg" class="object-cover w-full max-h-40" />
+                    <a href="https://github.com/Ashraf-Khabar/MoroccanCultureQuiz" class="block w-full h-full">
+                        <img alt="blog photo" src="https://cdn.wccftech.com/wp-content/uploads/2015/09/javaAndroid.jpg" class="object-cover w-full max-h-40" />
                         <div class="w-full p-4 bg-white dark:bg-gray-800">
                             <p class="font-medium text-indigo-500 text-md">
                                 MoroccanCultureQuiz
                             </p>
                             <p class="mb-2 text-xl font-medium text-gray-800 dark:text-white">
                                 Blogosss is a web-based application for creating and sharing blogs, developed by Achraf Khabar using C#, ASP.NET, Entity Framework, HTML, CSS, and JavaScript. The application follows the Model-View…
+
                             </p>
 
                             <div class="flex items-center mt-4">
@@ -137,7 +138,7 @@ const Portfolio = ({ darkModeValue }) => {
                                         language/technologies
                                     </p>
                                     <p class="text-gray-400 dark:text-gray-300">
-                                        C# - ASP.NET - SQLServer
+                                        java - xml - android studio - gradel
                                     </p>
                                 </div>
                             </div>
@@ -147,14 +148,14 @@ const Portfolio = ({ darkModeValue }) => {
 
                 {/*card 6 */}
                 <div class="m-auto overflow-hidden rounded-lg shadow-lg cursor-pointer h-90 w-60 md:w-80">
-                    <a href="https://github.com/Ashraf-Khabar/Blogosss" class="block w-full h-full">
-                        <img alt="blog photo" src="https://miro.medium.com/max/680/0*whPt9R9BXJ5xotoh.jpg" class="object-cover w-full max-h-40" />
+                    <a href="https://github.com/Ashraf-Khabar/StudentDocumentGenerator" class="block w-full h-full">
+                        <img alt="blog photo" src="https://res.cloudinary.com/practicaldev/image/fetch/s--ss0JQROE--/c_imagga_scale,f_auto,fl_progressive,h_720,q_auto,w_1280/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/lorrhb1o88ctzseax3fe.png" class="object-cover w-full max-h-40" />
                         <div class="w-full p-4 bg-white dark:bg-gray-800">
                             <p class="font-medium text-indigo-500 text-md">
-                                Blogosss
+                                StudentDocumentGenerator
                             </p>
                             <p class="mb-2 text-xl font-medium text-gray-800 dark:text-white">
-                                Blogosss is a web-based application for creating and sharing blogs, developed by Achraf Khabar using C#, ASP.NET, Entity Framework, HTML, CSS, and JavaScript. The application follows the Model-View…
+                                This app is a document generator for students in school. It takes an excel file as input and transforms it into an XML file. The app then uses XSL, DTD, XSD, and XQuery to generate various PDF docu…
                             </p>
 
                             <div class="flex items-center mt-4">
@@ -164,7 +165,7 @@ const Portfolio = ({ darkModeValue }) => {
                                         language/technologies
                                     </p>
                                     <p class="text-gray-400 dark:text-gray-300">
-                                        C# - ASP.NET - SQLServer
+                                        Python - flask - XML - XSL - DTD - XSD - XQuery 
                                     </p>
                                 </div>
                             </div>
