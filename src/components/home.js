@@ -92,7 +92,7 @@ const Home = ({darkModeValue}) => {
                             </div>
                         </div>
                         <div className="card w-96 bg-base-100 shadow-xl">
-                            <figure><img src="https://miro.medium.com/max/1400/1*CpDidbInbG4Er_0j_hknFQ.jpeg" alt="Shoes" /></figure>
+                            <figure><img  src="https://miro.medium.com/max/1400/1*hJ1tgnNp8MBBjBFPQwFENw.png" alt="Shoes" /></figure>
                             <div className="card-body">
                                 <h2 className="card-title">ENSAT_Internship</h2>
                                 <p>ENSAT_Internship est une application web développée en utilisant Node.js, React.js, Express.js, Sequelize et MySQL. Cette application a pour objectif de faciliter la recherche de stage pour les étu…</p>
