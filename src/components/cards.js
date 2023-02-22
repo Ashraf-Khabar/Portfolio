@@ -8,7 +8,7 @@ const Cards = ({darkModeValue}) => {
     <div class="flex items-end justify-between mb-12 header">
         <div class="title">
             <p class="mb-4 text-4xl font-bold text-orange-600">
-                Projets
+                SOME PROJECTS
             </p>
             <p class="text-2xl font-light text-gray-400">
                 All Projects are in Portfolio page
@@ -17,7 +17,7 @@ const Cards = ({darkModeValue}) => {
         <div class="text-end">
             <form class="flex flex-col justify-center w-3/4 max-w-sm space-y-3 md:flex-row md:w-full md:space-x-3 md:space-y-0">
                 <div class=" relative ">
-                    <input type="text" id="&quot;form-subscribe-Search" class=" rounded-lg border-transparent flex-1 appearance-none border border-gray-300 w-full py-2 px-4 bg-white text-gray-700 placeholder-gray-400 shadow-sm text-base focus:outline-none focus:ring-2 focus:ring-purple-600 focus:border-transparent" placeholder="Enter a title"/>
+                    <input type="text" id="&quot;form-subscribe-Search" class=" rounded-lg border-transparent flex-1 appearance-none border border-gray-300 w-full py-2 px-4 bg-white text-gray-700 placeholder-gray-400 shadow-sm text-base focus:outline-none focus:ring-2 focus:ring-orange-300 focus:border-transparent" placeholder="Search"/>
                     </div>
                     <button className="btn btn-outline btn-warning">Search</button>
                 </form>

@@ -9,7 +9,7 @@ const Footer = ({ darkModeValue }) => {
                 {console.log("Footer : " + darkModeValue)}
                 <div>
                     <h1 className="" >Achraf KHABAR</h1>
-                    <p>From here To there<br />2023</p>
+                    <p>© - 2023</p>
                 </div>
                 <div>
                     <span className="footer-title">Contact</span>
