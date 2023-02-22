@@ -1,6 +1,6 @@
 import React from "react";
 
-const Hobies = ({darkModeValue}) => {
+const Hobies = ({ darkModeValue }) => {
 
     return (
 
@@ -9,13 +9,19 @@ const Hobies = ({darkModeValue}) => {
                 <div class="lg:grid lg:grid-flow-row-dense lg:grid-cols-2 lg:gap-8 lg:items-center">
                     <div class="ml-auto lg:col-start-2 lg:max-w-2xl">
                         <p class="text-base font-semibold leading-6 text-indigo-500 uppercase">
-                            Interactive
+                            My hobies
                         </p>
                         <h4 class="mt-2 text-2xl font-extrabold leading-8 sm:text-3xl sm:leading-9">
-                            Interactivity between team members is the key of the success.
+
                         </h4>
                         <p class="mt-4 text-lg leading-6">
-                            Build a simply and powered collaborative space for all your team. Track, share, measure, you have a fully control, it&#x27;s never be simply and efficient.
+                            One of my greatest passions in life is engaging in a variety of hobbies that bring me joy and fulfillment. One of my favorite hobbies is playing football. I love the excitement and rush that comes from playing a competitive game, as well as the opportunity to work with my teammates to achieve a common goal.
+
+                            In addition to football, I also have a keen interest in graphic design. I enjoy creating visually appealing designs that communicate a message or tell a story. Whether it's designing a logo, creating a flyer, or working on a website layout, I find graphic design to be a fascinating and rewarding pursuit.
+
+                            Drawing is another hobby that I love to indulge in. Whenever I have spare time, I enjoy picking up a pencil and sketching out my ideas on paper. It's a great way to express my creativity and to relax and unwind after a long day.
+
+                            When I'm not playing sports or working on my creative projects, I also enjoy watching anime and movies. There's something about immersing myself in a well-crafted story that I find truly captivating. Whether it's a thrilling action movie or a touching romantic anime, I love the way that good storytelling can transport me to another world and inspire me to see things from a different perspective.
                         </p>
                         <ul class="gap-6 mt-8 md:grid md:grid-cols-2">
                             <li class="mt-6 lg:mt-0">
@@ -27,7 +33,7 @@ const Hobies = ({darkModeValue}) => {
                                         </svg>
                                     </span>
                                     <span class="ml-4 text-base font-medium leading-6">
-                                        Live modifications
+                                        Graohic designing
                                     </span>
                                 </div>
                             </li>
@@ -40,7 +46,7 @@ const Hobies = ({darkModeValue}) => {
                                         </svg>
                                     </span>
                                     <span class="ml-4 text-base font-medium leading-6">
-                                        Data tracker
+                                        Watchin anime/movies
                                     </span>
                                 </div>
                             </li>
@@ -53,7 +59,7 @@ const Hobies = ({darkModeValue}) => {
                                         </svg>
                                     </span>
                                     <span class="ml-4 text-base font-medium leading-6">
-                                        24/24 support
+                                        Drawing
                                     </span>
                                 </div>
                             </li>
@@ -66,7 +72,7 @@ const Hobies = ({darkModeValue}) => {
                                         </svg>
                                     </span>
                                     <span class="ml-4 text-base font-medium leading-6">
-                                        Free tips to improve work time
+                                        Playing football
                                     </span>
                                 </div>
                             </li>
