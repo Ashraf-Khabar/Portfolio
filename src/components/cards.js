@@ -16,12 +16,7 @@ const Cards = ({ darkModeValue }) => {
                     </p>
                 </div>
                 <div class="text-end">
-                    <form class="flex flex-col justify-center w-3/4 max-w-sm space-y-3 md:flex-row md:w-full md:space-x-3 md:space-y-0">
-                        <div class=" relative ">
-                            <input type="text" id="&quot;form-subscribe-Search" class=" rounded-lg border-transparent flex-1 appearance-none border border-gray-300 w-full py-2 px-4 bg-white text-gray-700 placeholder-gray-400 shadow-sm text-base focus:outline-none focus:ring-2 focus:ring-orange-300 focus:border-transparent" placeholder="Search" />
-                        </div>
-                        <button className="btn btn-outline btn-warning">Search</button>
-                    </form>
+                    
                 </div>
             </div>
             <div class="grid grid-cols-1 gap-12 md:grid-cols-2 xl:grid-cols-3">
