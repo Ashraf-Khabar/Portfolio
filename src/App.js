@@ -10,6 +10,7 @@ import Error from "./components/error";
 import About from "./components/about";
 import Hobies from "./components/hobies";
 import Portfolio from "./components/portfolio";
+import SocialMedia from "./components/socialmedia";
 
 function App() {
   const [isChecked, setIsChecked] = useState(false);
@@ -30,6 +31,7 @@ function App() {
 
             <Route path='/about'>
               <About darkModeValue={darkModeValue} />
+              <SocialMedia  />
               <Hobies darkModeValue={darkModeValue}/>
             </Route>
 

@@ -33,7 +33,7 @@ const Hobies = ({ darkModeValue }) => {
                                         </svg>
                                     </span>
                                     <span class="ml-4 text-base font-medium leading-6">
-                                        Graohic designing
+                                        Graphic designing
                                     </span>
                                 </div>
                             </li>
@@ -46,7 +46,7 @@ const Hobies = ({ darkModeValue }) => {
                                         </svg>
                                     </span>
                                     <span class="ml-4 text-base font-medium leading-6">
-                                        Watchin anime/movies
+                                        Watching anime/movies
                                     </span>
                                 </div>
                             </li>
