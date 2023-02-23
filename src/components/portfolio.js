@@ -31,7 +31,10 @@ const Portfolio = ({ darkModeValue }) => {
                                         languages/technologies
                                     </p>
                                     <p class="text-gray-400 dark:text-gray-300">
-                                        Python - Kivy - KivyMD
+                                    <br/>
+                                        <div className="badge badge-accent badge-outline">Python</div>
+                                        <div className="badge badge-secondary  badge-outline">Kivy</div>
+                                        <div className="badge badge-accent badge-outline">KivyMD</div>
                                     </p>
                                 </div>
                             </div>
@@ -57,7 +60,12 @@ const Portfolio = ({ darkModeValue }) => {
                                         languages/technologies
                                     </p>
                                     <p class="text-gray-400 dark:text-gray-300">
-                                        Nodejs - Express js - react js - Sequelize - MySQL
+                                    <br/>
+                                        <div className="badge badge-accent badge-outline">Nodejs</div>
+                                        <div className="badge badge-secondary  badge-outline">Express js</div>
+                                        <div className="badge badge-accent badge-outline">react js</div>
+                                        <div className="badge badge-accent badge-outline">Sequelize</div>
+                                        <div className="badge badge-accent badge-outline">MySQL</div>
                                     </p>
                                 </div>
                             </div>
@@ -83,7 +91,10 @@ const Portfolio = ({ darkModeValue }) => {
                                         language/technologies
                                     </p>
                                     <p class="text-gray-400 dark:text-gray-300">
-                                        C# - ASP.NET - SQLServer
+                                    <br/>
+                                        <div className="badge badge-accent badge-outline">C#</div>
+                                        <div className="badge badge-secondary  badge-outline">ASP.NET</div>
+                                        <div className="badge badge-accent badge-outline">SQLServer</div>
                                     </p>
                                 </div>
                             </div>
@@ -110,7 +121,10 @@ const Portfolio = ({ darkModeValue }) => {
                                         language/technologies
                                     </p>
                                     <p class="text-gray-400 dark:text-gray-300">
-                                        PHP - Laravel9 - Oracle Db 21c
+                                        <br/>
+                                        <div className="badge badge-accent badge-outline">PHP</div>
+                                        <div className="badge badge-secondary  badge-outline">Laravel9</div>
+                                        <div className="badge badge-accent badge-outline">Oracle Db 21c</div>
                                     </p>
                                 </div>
                             </div>
@@ -138,7 +152,11 @@ const Portfolio = ({ darkModeValue }) => {
                                         language/technologies
                                     </p>
                                     <p class="text-gray-400 dark:text-gray-300">
-                                        java - xml - android studio - gradel
+                                        <br/>
+                                        <div className="badge badge-accent badge-outline">java</div>
+                                        <div className="badge badge-secondary  badge-outline">xml</div>
+                                        <div className="badge badge-accent badge-outline">android studio</div>
+                                        <div className="badge badge-secondary  badge-outline">gradel</div>
                                     </p>
                                 </div>
                             </div>
@@ -165,7 +183,14 @@ const Portfolio = ({ darkModeValue }) => {
                                         language/technologies
                                     </p>
                                     <p class="text-gray-400 dark:text-gray-300">
-                                        Python - flask - XML - XSL - DTD - XSD - XQuery 
+                                        <br/>
+                                        <div className="badge badge-accent badge-outline">Python</div>
+                                        <div className="badge badge-secondary  badge-outline">flask</div>
+                                        <div className="badge badge-accent badge-outline">XML</div>
+                                        <div className="badge badge-secondary  badge-outline">XSL</div>
+                                        <div className="badge badge-accent badge-outline">DTD</div>
+                                        <div className="badge badge-secondary  badge-outline">XSD</div>
+                                        <div className="badge badge-accent badge-outline">XQuery</div>
                                     </p>
                                 </div>
                             </div>
@@ -174,31 +199,7 @@ const Portfolio = ({ darkModeValue }) => {
                 </div>
 
                 {/*card 7 */}
-                <div class="m-auto overflow-hidden rounded-lg shadow-lg cursor-pointer h-90 w-60 md:w-80">
-                    <a href="https://github.com/Ashraf-Khabar/Blogosss" class="block w-full h-full">
-                        <img alt="blog photo" src="https://miro.medium.com/max/680/0*whPt9R9BXJ5xotoh.jpg" class="object-cover w-full max-h-40" />
-                        <div class="w-full p-4 bg-white dark:bg-gray-800">
-                            <p class="font-medium text-indigo-500 text-md">
-                                Blogosss
-                            </p>
-                            <p class="mb-2 text-xl font-medium text-gray-800 dark:text-white">
-                                Blogosss is a web-based application for creating and sharing blogs, developed by Achraf Khabar using C#, ASP.NET, Entity Framework, HTML, CSS, and JavaScript. The application follows the Model-View…
-                            </p>
-
-                            <div class="flex items-center mt-4">
-
-                                <div class="flex flex-col justify-between ml-4 text-sm">
-                                    <p class="text-gray-800 dark:text-white">
-                                        language/technologies
-                                    </p>
-                                    <p class="text-gray-400 dark:text-gray-300">
-                                        C# - ASP.NET - SQLServer
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
+                
             </div>
         </div>
     )
