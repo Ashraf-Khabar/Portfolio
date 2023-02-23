@@ -31,7 +31,7 @@ function App() {
 
             <Route path='/about'>
               <About darkModeValue={darkModeValue} />
-              <SocialMedia  />
+              <SocialMedia />
               <Hobies darkModeValue={darkModeValue}/>
             </Route>
 
