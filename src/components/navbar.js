@@ -14,7 +14,7 @@ const NavBar = ({isChecked, setIsChecked, darkModeValue, setDarkModeValue}) => {
     }
 
     const filename = 'KHABAR-Achraf-CV.pdf';
-    const pdfURL = require(`../docs/KHABAR-Achraf-CV.pdf`);
+    const pdfURL = require(`../docs/${filename}`);
 
     return (
         <div data-theme={darkModeValue}  className="navbar bg-base-100">
