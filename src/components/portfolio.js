@@ -11,7 +11,7 @@ const Portfolio = ({ darkModeValue }) => {
                     </p>
                 </div>
             </div>
-            
+
             <div class="grid grid-cols-1 gap-12 md:grid-cols-2 xl:grid-cols-3">
                 {/*card 1 */}
                 <div class="m-auto overflow-hidden rounded-lg shadow-lg cursor-pointer h-90 w-60 md:w-80">
@@ -32,7 +32,7 @@ const Portfolio = ({ darkModeValue }) => {
                                         languages/technologies
                                     </p>
                                     <p class="text-gray-400 dark:text-gray-300">
-                                    <br/>
+                                        <br />
                                         <div className="badge badge-accent badge-outline">Python</div>
                                         <div className="badge badge-secondary  badge-outline">Kivy</div>
                                         <div className="badge badge-accent badge-outline">KivyMD</div>
@@ -61,7 +61,7 @@ const Portfolio = ({ darkModeValue }) => {
                                         languages/technologies
                                     </p>
                                     <p class="text-gray-400 dark:text-gray-300">
-                                    <br/>
+                                        <br />
                                         <div className="badge badge-accent badge-outline">Nodejs</div>
                                         <div className="badge badge-secondary  badge-outline">Express js</div>
                                         <div className="badge badge-accent badge-outline">react js</div>
@@ -92,7 +92,7 @@ const Portfolio = ({ darkModeValue }) => {
                                         language/technologies
                                     </p>
                                     <p class="text-gray-400 dark:text-gray-300">
-                                    <br/>
+                                        <br />
                                         <div className="badge badge-accent badge-outline">C#</div>
                                         <div className="badge badge-secondary  badge-outline">ASP.NET</div>
                                         <div className="badge badge-accent badge-outline">SQLServer</div>
@@ -111,8 +111,7 @@ const Portfolio = ({ darkModeValue }) => {
                                 StudentGradeManager
                             </p>
                             <p class="mb-2 text-xl font-medium text-gray-800 dark:text-white">
-                                Blogosss is a web-based application for creating and sharing blogs, developed by Achraf Khabar using C#, ASP.NET, Entity Framework, HTML, CSS, and JavaScript. The application follows the Model-View…
-
+                                StudentGradeManager is a web application that allows for easy management of student grades by modules, subjects, and teachers. Built with Laravel and Oracle DB, this app allows teachers to view the…
                             </p>
                             <div class="flex items-center mt-4">
 
@@ -121,7 +120,7 @@ const Portfolio = ({ darkModeValue }) => {
                                         language/technologies
                                     </p>
                                     <p class="text-gray-400 dark:text-gray-300">
-                                        <br/>
+                                        <br />
                                         <div className="badge badge-accent badge-outline">PHP</div>
                                         <div className="badge badge-secondary  badge-outline">Laravel9</div>
                                         <div className="badge badge-accent badge-outline">Oracle Db 21c</div>
@@ -140,8 +139,7 @@ const Portfolio = ({ darkModeValue }) => {
                                 MoroccanCultureQuiz
                             </p>
                             <p class="mb-2 text-xl font-medium text-gray-800 dark:text-white">
-                                Blogosss is a web-based application for creating and sharing blogs, developed by Achraf Khabar using C#, ASP.NET, Entity Framework, HTML, CSS, and JavaScript. The application follows the Model-View…
-
+                                A mobile app built using Java and XML that offers a fun and educational way to learn about Moroccan history through a series of quizzes. The app displays the user's score at the end of each quiz an…
                             </p>
 
                             <div class="flex items-center mt-4">
@@ -151,7 +149,7 @@ const Portfolio = ({ darkModeValue }) => {
                                         language/technologies
                                     </p>
                                     <p class="text-gray-400 dark:text-gray-300">
-                                        <br/>
+                                        <br />
                                         <div className="badge badge-accent badge-outline">java</div>
                                         <div className="badge badge-secondary  badge-outline">xml</div>
                                         <div className="badge badge-accent badge-outline">android studio</div>
@@ -181,7 +179,7 @@ const Portfolio = ({ darkModeValue }) => {
                                         language/technologies
                                     </p>
                                     <p class="text-gray-400 dark:text-gray-300">
-                                        <br/>
+                                        <br />
                                         <div className="badge badge-accent badge-outline">Python</div>
                                         <div className="badge badge-secondary  badge-outline">flask</div>
                                         <div className="badge badge-accent badge-outline">XML</div>
@@ -196,7 +194,39 @@ const Portfolio = ({ darkModeValue }) => {
                     </a>
                 </div>
                 {/*card 7 */}
-                
+                <div class="m-auto overflow-hidden rounded-lg shadow-lg cursor-pointer h-90 w-60 md:w-80">
+                    <a href="https://github.com/Ashraf-Khabar/Titanic-Survival-Prediction-Model" class="block w-full h-full">
+                        <img alt="blog photo" src="https://miro.medium.com/max/1200/1*n4_NMnZmIhJ9Q9r4KDw1ew.png" class="object-cover w-full max-h-40" />
+                        <div class="w-full p-4 bg-white dark:bg-gray-800">
+                            <p class="font-medium text-indigo-500 text-md">
+                                Titanic-Survival-Prediction-Model
+                            </p>
+                            <p class="mb-2 text-xl font-medium text-gray-800 dark:text-white">
+                                This project is a machine learning model that predicts the likelihood of survival for passengers on the Titanic based on various parameters such as age, gender, class, and fare. The model was built…
+                            </p>
+
+                            <div class="flex items-center mt-4">
+
+                                <div class="flex flex-col justify-between ml-4 text-sm">
+                                    <p class="text-gray-800 dark:text-white">
+                                        language/technologies
+                                    </p>
+                                    <p class="text-gray-400 dark:text-gray-300">
+                                        <br />
+                                        <div className="badge badge-accent badge-outline">Python</div>
+                                        <div className="badge badge-secondary  badge-outline">Jupiter</div>
+                                        <div className="badge badge-accent badge-outline">numpy</div>
+                                        <div className="badge badge-secondary  badge-outline">seaborn</div>
+                                        <div className="badge badge-accent badge-outline">matplotlib</div>
+                                        <div className="badge badge-secondary  badge-outline">pandas</div>
+                                        <div className="badge badge-accent badge-outline">scikit-learn</div>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
             </div>
         </div>
     )
