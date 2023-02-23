@@ -20,6 +20,7 @@ const Cards = ({ darkModeValue }) => {
                 </div>
             </div>
             <div class="grid grid-cols-1 gap-12 md:grid-cols-2 xl:grid-cols-3">
+                {/*card 1 */}
                 <div class="m-auto overflow-hidden rounded-lg shadow-lg cursor-pointer h-90 w-60 md:w-80">
                     <a href="https://github.com/Ashraf-Khabar/FuncPlot-PlottingFunctionsMadeEasy" class="block w-full h-full">
                         <img alt="blog photo" src="https://miro.medium.com/max/840/1*RJMxLdTHqVBSijKmOO5MAg.jpeg" class="object-cover w-full max-h-40" />
@@ -38,7 +39,10 @@ const Cards = ({ darkModeValue }) => {
                                         languages/technologies
                                     </p>
                                     <p class="text-gray-400 dark:text-gray-300">
-                                        Python - Kivy - KivyMD
+                                    <br/>
+                                        <div className="badge badge-accent badge-outline">Python</div>
+                                        <div className="badge badge-secondary  badge-outline">Kivy</div>
+                                        <div className="badge badge-accent badge-outline">KivyMD</div>
                                     </p>
                                 </div>
                             </div>
@@ -64,7 +68,12 @@ const Cards = ({ darkModeValue }) => {
                                         languages/technologies
                                     </p>
                                     <p class="text-gray-400 dark:text-gray-300">
-                                        Nodejs - Express js - react js - Sequelize - MySQL
+                                    <br/>
+                                        <div className="badge badge-accent badge-outline">Nodejs</div>
+                                        <div className="badge badge-secondary  badge-outline">Express js</div>
+                                        <div className="badge badge-accent badge-outline">react js</div>
+                                        <div className="badge badge-accent badge-outline">Sequelize</div>
+                                        <div className="badge badge-accent badge-outline">MySQL</div>
                                     </p>
                                 </div>
                             </div>
@@ -90,7 +99,10 @@ const Cards = ({ darkModeValue }) => {
                                         language/technologies
                                     </p>
                                     <p class="text-gray-400 dark:text-gray-300">
-                                        C# - ASP.NET - SQLServer
+                                    <br/>
+                                        <div className="badge badge-accent badge-outline">C#</div>
+                                        <div className="badge badge-secondary  badge-outline">ASP.NET</div>
+                                        <div className="badge badge-accent badge-outline">SQLServer</div>
                                     </p>
                                 </div>
                             </div>

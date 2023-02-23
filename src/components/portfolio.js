@@ -11,8 +11,9 @@ const Portfolio = ({ darkModeValue }) => {
                     </p>
                 </div>
             </div>
-            {/*card 1 */}
+            
             <div class="grid grid-cols-1 gap-12 md:grid-cols-2 xl:grid-cols-3">
+                {/*card 1 */}
                 <div class="m-auto overflow-hidden rounded-lg shadow-lg cursor-pointer h-90 w-60 md:w-80">
                     <a href="https://github.com/Ashraf-Khabar/FuncPlot-PlottingFunctionsMadeEasy" class="block w-full h-full">
                         <img alt="blog photo" src="https://miro.medium.com/max/840/1*RJMxLdTHqVBSijKmOO5MAg.jpeg" class="object-cover w-full max-h-40" />
@@ -101,7 +102,6 @@ const Portfolio = ({ darkModeValue }) => {
                         </div>
                     </a>
                 </div>
-
                 {/*card 4 */}
                 <div class="m-auto overflow-hidden rounded-lg shadow-lg cursor-pointer h-90 w-60 md:w-80">
                     <a href="https://github.com/Ashraf-Khabar/StudentGradeManager" class="block w-full h-full">
@@ -131,7 +131,6 @@ const Portfolio = ({ darkModeValue }) => {
                         </div>
                     </a>
                 </div>
-
                 {/*card 5 */}
                 <div class="m-auto overflow-hidden rounded-lg shadow-lg cursor-pointer h-90 w-60 md:w-80">
                     <a href="https://github.com/Ashraf-Khabar/MoroccanCultureQuiz" class="block w-full h-full">
@@ -163,7 +162,6 @@ const Portfolio = ({ darkModeValue }) => {
                         </div>
                     </a>
                 </div>
-
                 {/*card 6 */}
                 <div class="m-auto overflow-hidden rounded-lg shadow-lg cursor-pointer h-90 w-60 md:w-80">
                     <a href="https://github.com/Ashraf-Khabar/StudentDocumentGenerator" class="block w-full h-full">
@@ -197,7 +195,6 @@ const Portfolio = ({ darkModeValue }) => {
                         </div>
                     </a>
                 </div>
-
                 {/*card 7 */}
                 
             </div>
