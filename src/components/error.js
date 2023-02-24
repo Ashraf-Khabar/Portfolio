@@ -13,7 +13,7 @@ const Error = () => {
                     </button>
                 </div>
                 <div class="relative block w-full max-w-md mx-auto md:mt-0 lg:max-w-2xl">
-                    <img src="https://cdn-icons-png.flaticon.com/512/7465/7465751.png" />
+                    <img src="https://cdn-icons-png.flaticon.com/512/7465/7465751.png" alt="imaging" />
                 </div>
             </div>
         </div>

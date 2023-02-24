@@ -10,7 +10,8 @@ const Home = ({ darkModeValue }) => {
                     <img src="https://avatars.githubusercontent.com/u/95541956?s=400&u=907244470dd4e5d4a047be77216b928ccfdac6dc&v=4" />
                     <div>
                         <h1 className="text-5xl font-bold">Achraf KHABAR</h1>
-                        <p className="py-6 text-center">
+                        <br/>
+                        <p className="max-w-md  text-justify">
                             As a Moroccan software engineering student, I have a keen interest in the world of IT and science, particularly in mathematics, web development, and problem-solving. You have experience working with various programming languages and web development frameworks, such as:
 
                             C/C++ using SDL2 for game development
@@ -30,6 +31,7 @@ const Home = ({ darkModeValue }) => {
                             Responsable de design (design lead) in the IT DAY (IT event) at ENSA Tanger.
 
                         </p>
+                        <br/>
                         <Link to='/about' className="btn btn-primary">See More</Link>
                     </div>
                 </div>

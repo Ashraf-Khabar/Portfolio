@@ -16,7 +16,7 @@ const Portfolio = ({ darkModeValue }) => {
                 {/*card 1 */}
                 <div className="m-auto overflow-hidden rounded-lg shadow-lg cursor-pointer h-90 w-60 md:w-80">
                     <a href="https://github.com/Ashraf-Khabar/FuncPlot-PlottingFunctionsMadeEasy" className="block w-full h-full">
-                        <img alt="blog photo" src="https://miro.medium.com/max/840/1*RJMxLdTHqVBSijKmOO5MAg.jpeg" className="object-cover w-full max-h-40" />
+                        <img alt="blog photos" src="https://miro.medium.com/max/840/1*RJMxLdTHqVBSijKmOO5MAg.jpeg" className="object-cover w-full max-h-40" />
                         <div className="w-full p-4 bg-white dark:bg-gray-800">
                             <p className="font-medium text-indigo-500 text-md">
                                 FuncPlot-PlottingFunctionsMadeEasy
@@ -45,7 +45,7 @@ const Portfolio = ({ darkModeValue }) => {
                 {/*card 2*/}
                 <div className="m-auto overflow-hidden rounded-lg shadow-lg cursor-pointer h-90 w-60 md:w-80">
                     <a href="https://github.com/Ashraf-Khabar/ENSAT_Internship" className="block w-full h-full">
-                        <img alt="blog photo" src="https://miro.medium.com/max/1400/1*CpDidbInbG4Er_0j_hknFQ.jpeg" className="object-cover w-full max-h-40" />
+                        <img alt="blog photos" src="https://miro.medium.com/max/1400/1*CpDidbInbG4Er_0j_hknFQ.jpeg" className="object-cover w-full max-h-40" />
                         <div className="w-full p-4 bg-white dark:bg-gray-800">
                             <p className="font-medium text-indigo-500 text-md">
                                 ENSAT_Internship
@@ -76,7 +76,7 @@ const Portfolio = ({ darkModeValue }) => {
                 {/*card 3 */}
                 <div className="m-auto overflow-hidden rounded-lg shadow-lg cursor-pointer h-90 w-60 md:w-80">
                     <a href="https://github.com/Ashraf-Khabar/Blogosss" className="block w-full h-full">
-                        <img alt="blog photo" src="https://raw.githubusercontent.com/sumitc91/sumitc91.github.io/master/Blogs/23a73932-d77d-4bd4-b4ab-06ea4d5183d3_c-sharp-dotnet.jpg" className="object-cover w-full max-h-40" />
+                        <img alt="blog photos" src="https://raw.githubusercontent.com/sumitc91/sumitc91.github.io/master/Blogs/23a73932-d77d-4bd4-b4ab-06ea4d5183d3_c-sharp-dotnet.jpg" className="object-cover w-full max-h-40" />
                         <div className="w-full p-4 bg-white dark:bg-gray-800">
                             <p className="font-medium text-indigo-500 text-md">
                                 Blogosss
@@ -105,7 +105,7 @@ const Portfolio = ({ darkModeValue }) => {
                 {/*card 4 */}
                 <div className="m-auto overflow-hidden rounded-lg shadow-lg cursor-pointer h-90 w-60 md:w-80">
                     <a href="https://github.com/Ashraf-Khabar/StudentGradeManager" className="block w-full h-full">
-                        <img alt="blog photo" src="https://innovativeeducation.com.bd/wp-content/uploads/2022/01/Laravel-9-Whats-New-features-in-Laravel-9.jpg" className="object-cover w-full max-h-40" />
+                        <img alt="blog photos" src="https://innovativeeducation.com.bd/wp-content/uploads/2022/01/Laravel-9-Whats-New-features-in-Laravel-9.jpg" className="object-cover w-full max-h-40" />
                         <div className="w-full p-4 bg-white dark:bg-gray-800">
                             <p className="font-medium text-indigo-500 text-md">
                                 StudentGradeManager
@@ -133,7 +133,7 @@ const Portfolio = ({ darkModeValue }) => {
                 {/*card 5 */}
                 <div className="m-auto overflow-hidden rounded-lg shadow-lg cursor-pointer h-90 w-60 md:w-80">
                     <a href="https://github.com/Ashraf-Khabar/MoroccanCultureQuiz" className="block w-full h-full">
-                        <img alt="blog photo" src="https://cdn.wccftech.com/wp-content/uploads/2015/09/javaAndroid.jpg" className="object-cover w-full max-h-40" />
+                        <img alt="blog photos" src="https://cdn.wccftech.com/wp-content/uploads/2015/09/javaAndroid.jpg" className="object-cover w-full max-h-40" />
                         <div className="w-full p-4 bg-white dark:bg-gray-800">
                             <p className="font-medium text-indigo-500 text-md">
                                 MoroccanCultureQuiz
@@ -163,7 +163,7 @@ const Portfolio = ({ darkModeValue }) => {
                 {/*card 6 */}
                 <div className="m-auto overflow-hidden rounded-lg shadow-lg cursor-pointer h-90 w-60 md:w-80">
                     <a href="https://github.com/Ashraf-Khabar/StudentDocumentGenerator" className="block w-full h-full">
-                        <img alt="blog photo" src="https://res.cloudinary.com/practicaldev/image/fetch/s--ss0JQROE--/c_imagga_scale,f_auto,fl_progressive,h_720,q_auto,w_1280/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/lorrhb1o88ctzseax3fe.png" className="object-cover w-full max-h-40" />
+                        <img alt="blog photos" src="https://res.cloudinary.com/practicaldev/image/fetch/s--ss0JQROE--/c_imagga_scale,f_auto,fl_progressive,h_720,q_auto,w_1280/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/lorrhb1o88ctzseax3fe.png" className="object-cover w-full max-h-40" />
                         <div className="w-full p-4 bg-white dark:bg-gray-800">
                             <p className="font-medium text-indigo-500 text-md">
                                 StudentDocumentGenerator
@@ -196,7 +196,7 @@ const Portfolio = ({ darkModeValue }) => {
                 {/*card 7 */}
                 <div className="m-auto overflow-hidden rounded-lg shadow-lg cursor-pointer h-90 w-60 md:w-80">
                     <a href="https://github.com/Ashraf-Khabar/Titanic-Survival-Prediction-Model" className="block w-full h-full">
-                        <img alt="blog photo" src="https://miro.medium.com/max/1200/1*n4_NMnZmIhJ9Q9r4KDw1ew.png" className="object-cover w-full max-h-40" />
+                        <img alt="blog photos" src="https://miro.medium.com/max/1200/1*n4_NMnZmIhJ9Q9r4KDw1ew.png" className="object-cover w-full max-h-40" />
                         <div className="w-full p-4 bg-white dark:bg-gray-800">
                             <p className="font-medium text-indigo-500 text-md">
                                 Titanic-Survival-Prediction-Model

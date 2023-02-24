@@ -1,8 +1,9 @@
-import React from "react"
+import { React, useState, useTranslation } from "react"
 import { Link } from "react-router-dom";
 
 
-const NavBar = ({isChecked, setIsChecked, darkModeValue, setDarkModeValue}) => {
+const NavBar = ({ isChecked, setIsChecked, darkModeValue, setDarkModeValue }) => {
+
 
     function handleCheckboxChange(event) {
         setIsChecked(event.target.checked);
@@ -13,11 +14,13 @@ const NavBar = ({isChecked, setIsChecked, darkModeValue, setDarkModeValue}) => {
         }
     }
 
+  
+
     const filename = 'KHABAR-Achraf-CV.pdf';
     const pdfURL = require(`../docs/${filename}`);
 
     return (
-        <div data-theme={darkModeValue}  className="navbar bg-base-100">
+        <div data-theme={darkModeValue} className="navbar bg-base-100">
             <div className="navbar-start">
                 {console.log(darkModeValue)}
                 <div className="dropdown">
@@ -63,7 +66,9 @@ const NavBar = ({isChecked, setIsChecked, darkModeValue, setDarkModeValue}) => {
                             </div>
                         </div>
                     </div>
+                    
                 </div>
+
 
             </div>
         </div>
