@@ -14,7 +14,7 @@ import SocialMedia from "./components/socialmedia";
 
 function App() {
   const [isChecked, setIsChecked] = useState(false);
-  const [darkModeValue, setDarkModeValue] = useState('fantasy');
+  const [darkModeValue, setDarkModeValue] = useState('cupcake');
 
   return (
     <Router>

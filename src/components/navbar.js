@@ -8,9 +8,9 @@ const NavBar = ({ isChecked, setIsChecked, darkModeValue, setDarkModeValue }) =>
     function handleCheckboxChange(event) {
         setIsChecked(event.target.checked);
         if (!event.target.checked === false) {
-            setDarkModeValue('halloween');
+            setDarkModeValue('forest');
         } else {
-            setDarkModeValue('fantasy');
+            setDarkModeValue('cupcake');
         }
     }
 
