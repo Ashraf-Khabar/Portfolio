@@ -9,7 +9,7 @@ import Cards from "./components/cards";
 import Error from "./components/error";
 import About from "./components/about";
 import Hobies from "./components/hobies";
-import Portfolio from "./components/portfolio";
+import Portfolio from "./components/projects/portfolio";
 import SocialMedia from "./components/socialmedia";
 
 function App() {
