@@ -8,9 +8,9 @@ const NavBar = ({ isChecked, setIsChecked, darkModeValue, setDarkModeValue }) =>
     function handleCheckboxChange(event) {
         setIsChecked(event.target.checked);
         if (!event.target.checked === false) {
-            setDarkModeValue('forest');
-        } else {
             setDarkModeValue('cupcake');
+        } else {
+            setDarkModeValue('forest');
         }
     }
 
@@ -22,7 +22,6 @@ const NavBar = ({ isChecked, setIsChecked, darkModeValue, setDarkModeValue }) =>
     return (
         <div data-theme={darkModeValue} className="navbar bg-base-100">
             <div className="navbar-start">
-                {console.log(darkModeValue)}
                 <div className="dropdown">
                     <label tabIndex={0} className="btn btn-ghost btn-circle">
                         <svg xmlns="http://www.w3.org/2000/svg" className="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h16M4 18h7" /></svg>

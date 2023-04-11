@@ -15,7 +15,7 @@ import Resumes1 from "./components/MyResumes/Resumes1";
 
 function App() {
   const [isChecked, setIsChecked] = useState(false);
-  const [darkModeValue, setDarkModeValue] = useState('cupcake');
+  const [darkModeValue, setDarkModeValue] = useState('forest');
 
   return (
     <Router>
