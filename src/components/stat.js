@@ -9,7 +9,7 @@ const Stat = ({ darkModeValue }) => {
         labels: ['java script', 'HTML', 'PHP', 'XSLT', 'C#'],
         datasets: [
             {
-                label: '# of Votes',
+                label: '%',
                 data: [
                     47.96 ,
                     22.78 ,
