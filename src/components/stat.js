@@ -1,18 +1,21 @@
-import { useState } from "react";
 import React from "react";
 import { Chart as ChartJS, ArcElement, Tooltip, Legend } from 'chart.js';
 import { Pie } from 'react-chartjs-2';
 
 ChartJS.register(ArcElement, Tooltip, Legend);
 
-const Stat = ({darkModeValue}) => {
-    const [pieData, setPieData] = useState({
-        labels: [],
+const Stat = ({ darkModeValue }) => {
+    const pieData = {
+        labels: ['java script', 'HTML', 'PHP', 'XSLT', 'C#'],
         datasets: [
             {
-                label: [],
+                label: '# of Votes',
                 data: [
-                    
+                    47.96 ,
+                    22.78 ,
+                    11.10 ,
+                    10.84 ,
+                    7.32 
                 ],
                 backgroundColor: [
                     'rgba(255, 99, 132, 0.2)',
@@ -33,40 +36,56 @@ const Stat = ({darkModeValue}) => {
                 borderWidth: 1
             }
         ]
-    });
-    
+    };
+
     return (
-        <div data-theme={darkModeValue} className="artboard min-x-screen min-h-fit items-center justify-center flex">
-            <div className="stats shadow">
 
-                <div className="stat">
-                    <div className="stat-figure text-primary">
-                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="inline-block w-8 h-8 stroke-current"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"></path></svg>
-                    </div>
-                    <div className="stat-title">Development skills</div>
-                    <div className="stat-value text-primary">60 %</div>
-                    <div className="stat-desc">Skills in Programming languages such as C/C++, java, python, php, java script</div>
-                </div>
 
-                <div className="stat">
-                    <div className="stat-figure text-secondary">
-                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="inline-block w-8 h-8 stroke-current"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path></svg>
-                    </div>
-                    <div className="stat-title">Data Science - machine learning</div>
-                    <div className="stat-value text-secondary">30 %</div>
-                    <div className="stat-desc">Data science, data analysis, bigness intelligence, data base management, cloud computing ...</div>
-                </div>
+        <div data-theme={darkModeValue} >
+            <br /><br /><br /><br />
+            <center>
+                <h1 className="text-5xl font-bold">Most used Languages</h1>
+                <br /><br />
+            </center>
+            <div class="flex justify-center items-center h-96 w-96 mx-auto">
 
-                <div className="stat">
-                    <div className="stat-figure text-sky-600">
-                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="inline-block w-8 h-8 stroke-current"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path></svg>
+                <Pie data={pieData} />
+            </div>
+            <br /><br /><br /><br />
+            <div data-theme={darkModeValue} className="artboard min-x-screen min-h-fit items-center justify-center flex">
+                <div className="stats shadow">
+
+                    <div className="stat">
+
+                        <div className="stat-figure text-primary">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="inline-block w-8 h-8 stroke-current"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"></path></svg>
+                        </div>
+                        <div className="stat-title">Development skills</div>
+                        <div className="stat-value text-primary">60 %</div>
+                        <div className="stat-desc">Skills in Programming languages such as C/C++, java, python, php, java script</div>
                     </div>
-                    <div className="stat-title">Marketing and management</div>
-                    <div className="stat-value text-sky-600">10 %</div>
-                    <div className="stat-desc">21% more than last month</div>
+
+                    <div className="stat">
+                        <div className="stat-figure text-secondary">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="inline-block w-8 h-8 stroke-current"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path></svg>
+                        </div>
+                        <div className="stat-title">Data Science - machine learning</div>
+                        <div className="stat-value text-secondary">30 %</div>
+                        <div className="stat-desc">Data science, data analysis, bigness intelligence, data base management, cloud computing ...</div>
+                    </div>
+
+                    <div className="stat">
+                        <div className="stat-figure text-sky-600">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="inline-block w-8 h-8 stroke-current"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path></svg>
+                        </div>
+                        <div className="stat-title">Marketing and management</div>
+                        <div className="stat-value text-sky-600">10 %</div>
+                        <div className="stat-desc">21% more than last month</div>
+                    </div>
                 </div>
             </div>
         </div>
+
     )
 
 }
