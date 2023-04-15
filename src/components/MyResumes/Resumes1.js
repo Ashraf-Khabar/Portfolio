@@ -6,6 +6,7 @@ import BASICPYTHON from "../../docs/python.pdf";
 import MONGODB from "../../docs/mongoDb.pdf";
 import REACTJS from "../../docs/reactjs.pdf";
 import CSHARP from "../../docs/csharp.pdf";
+import VUEJS from "../../docs/vue.pdf";
 
 
 
@@ -43,6 +44,10 @@ const Resumes1 = ({ darkModeValue }) => {
     const handleResumeClickCSHARP = () => {
         // Replace the URL with the actual URL of your PDF file
         window.open(CSHARP, "_blank");
+    };
+    const handleResumeClickVUEJS = () => {
+        // Replace the URL with the actual URL of your PDF file
+        window.open(VUEJS, "_blank");
     };
 
 
@@ -204,6 +209,29 @@ const Resumes1 = ({ darkModeValue }) => {
                         <div className="w-full p-4 bg-white dark:bg-gray-800">
                             <p className="font-medium text-indigo-500 text-md">
                                 C#
+                            </p>
+                            <div className="flex items-center mt-4">
+                                <div className="flex flex-col justify-between ml-4 text-sm">
+                                    <p className="text-gray-800 dark:text-white">
+                                        FILES
+                                    </p>
+                                    <p className="text-gray-400 dark:text-gray-300">
+                                        <br />
+                                        <div className="badge badge-accent badge-outline">PDF</div>
+                                        <div className="badge badge-secondary  badge-outline">MARKDOWN</div>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                {/*card 8 */}
+                <div className="m-auto overflow-hidden rounded-lg shadow-lg cursor-pointer h-90 w-60 md:w-80">
+                    <a onClick={handleResumeClickVUEJS} className="block w-full h-full">
+                        <img alt="blog photos" src="https://media.licdn.com/dms/image/D4D12AQEepkPdIsgF5w/article-cover_image-shrink_720_1280/0/1678120121360?e=2147483647&v=beta&t=ZIXUgRwWcqz23iaqNQypv0FVHH2OUIDq17N9d11tvC0" />
+                        <div className="w-full p-4 bg-white dark:bg-gray-800">
+                            <p className="font-medium text-indigo-500 text-md">
+                                Vue JS
                             </p>
                             <div className="flex items-center mt-4">
                                 <div className="flex flex-col justify-between ml-4 text-sm">
