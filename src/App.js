@@ -12,6 +12,7 @@ import Hobies from "./components/hobies";
 import Portfolio from "./components/projects/portfolio";
 import SocialMedia from "./components/socialmedia";
 import Resumes1 from "./components/MyResumes/Resumes1";
+import Portfolio2 from "./components/projects/portfolio2";
 
 function App() {
   const [isChecked, setIsChecked] = useState(false);
@@ -36,8 +37,12 @@ function App() {
               <Hobies darkModeValue={darkModeValue}/>
             </Route>
 
-            <Route path='/portfolio' >
+            <Route exact path='/portfolio' >
               <Portfolio darkModeValue={darkModeValue} />
+            </Route>
+
+            <Route path='/portfolio/2' >
+              <Portfolio2 darkModeValue={darkModeValue} />
             </Route>
 
             <Route path='/resumes' >
