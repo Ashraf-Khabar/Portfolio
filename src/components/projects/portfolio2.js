@@ -16,7 +16,7 @@ const Portfolio2 = ({ darkModeValue }) => {
             <div className="grid grid-cols-1 gap-12 md:grid-cols-2 xl:grid-cols-3">
                 {/*card 1 */}
                 <div className="m-auto overflow-hidden rounded-lg shadow-lg cursor-pointer h-90 w-60 md:w-80">
-                    <a href="https://github.com/Ashraf-Khabar/FuncPlot-PlottingFunctionsMadeEasy" className="block w-full h-full">
+                    <a href="https://github.com/aissameXyz/student_attendance_management_system_ENSAT" className="block w-full h-full">
                         <img alt="blog photos" src="https://programacion.net/files/article/20171004121027_laravel.jpg" className="object-cover w-full max-h-40" />
                         <div className="w-full p-4 bg-white dark:bg-gray-800">
                             <p className="font-medium text-indigo-500 text-md">
