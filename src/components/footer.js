@@ -5,8 +5,6 @@ const Footer = ({ darkModeValue }) => {
     return (
         <div data-theme={darkModeValue}>
             <footer className="footer p-10 bg-neutral text-neutral-content">
-
-                {console.log("Footer : " + darkModeValue)}
                 <div>
                     <h1 className="" >Achraf KHABAR</h1>
                     <p>© - 2023</p>
