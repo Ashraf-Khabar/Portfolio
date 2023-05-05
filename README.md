@@ -9,7 +9,7 @@ This is the source code for my personal website built using React JS. The websit
 
 ### <img src="https://img.icons8.com/color/48/000000/css3.png" alt="CSS" width="30px" height="30px" /> CSS
 
-### <img src="https://raw.githubusercontent.com/saadeghi/files/main/daisyui/logo-4.svg" alt="DaisyUI" width="30px" height="30px" /> DaisyUI using [daisyUI]([https://](https://daisyui.com/)) or [github]([https://](https://github.com/saadeghi/daisyui))
+### <img src="https://raw.githubusercontent.com/saadeghi/files/main/daisyui/logo-4.svg" alt="DaisyUI" width="30px" height="30px" /> DaisyUI using <a href="https://daisyui.com/">DaisyUI</a> or [github]([https://](https://github.com/saadeghi/daisyui))
 
 ### <img src="https://img.icons8.com/color/48/000000/npm.png" alt="NPM" width="30px" height="30px" /> NPM
 
