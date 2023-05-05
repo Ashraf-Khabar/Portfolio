@@ -16,7 +16,7 @@ import Portfolio2 from "./components/projects/portfolio2";
 
 function App() {
   const [isChecked, setIsChecked] = useState(false);
-  const [darkModeValue, setDarkModeValue] = useState('forest');
+  const [darkModeValue, setDarkModeValue] = useState('night');
 
   return (
     <Router>
