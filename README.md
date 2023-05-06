@@ -6,7 +6,7 @@ This is the source code for my personal website built using React JS. The websit
 
 Screenshots
 -----------
-visit the site : <a href="https://achrafkhabar.com/">Achraf Khabar</a>
+visit the site : <a href="https://achrafkhabar.com/">Achraf Khabar</a><br/><br/>
 ![Screenshot of Homepage](./readme-pics/Screen1.PNG) ![Screenshot of Portfolio](./readme-pics/Screen2.PNG) ![Screenshot of Blog](./readme-pics/Screen3.PNG)
 
 ### <img src="https://cdn.iconscout.com/icon/free/png-256/react-1-282599.png" alt="React JS" width="30px" height="30px" /> React JS
