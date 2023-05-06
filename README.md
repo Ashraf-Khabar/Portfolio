@@ -1,7 +1,9 @@
-Personal Website : <a href="achrafkhabar.com">Achraf Khabar</a>
+Personal Website 
 ================
 
 This is the source code for my personal website built using React JS. The website showcases my portfolio, my projects, my notes and my personal informations.
+
+visit the site : <a href="achrafkhabar.com">Achraf Khabar</a>
 
 ### <img src="https://cdn.iconscout.com/icon/free/png-256/react-1-282599.png" alt="React JS" width="30px" height="30px" /> React JS
 
