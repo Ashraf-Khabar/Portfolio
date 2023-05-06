@@ -3,7 +3,11 @@ Personal Website
 
 This is the source code for my personal website built using React JS. The website showcases my portfolio, my projects, my notes and my personal informations.
 
+
+Screenshots
+-----------
 visit the site : <a href="https://achrafkhabar.com/">Achraf Khabar</a>
+![Screenshot of Homepage](./readme-pics/Screen1.PNG) ![Screenshot of Portfolio](./readme-pics/Screen2.PNG) ![Screenshot of Blog](./readme-pics/Screen3.PNG)
 
 ### <img src="https://cdn.iconscout.com/icon/free/png-256/react-1-282599.png" alt="React JS" width="30px" height="30px" /> React JS
 
@@ -34,11 +38,6 @@ To get started with this project, follow these steps:
 4.  Start the development server using `npm start`.
 
 5.  Open your web browser and navigate to `http://localhost:3000` to view the website.
-
-Screenshots
------------
-
-![Screenshot of Homepage](./readme-pics/Screen1.PNG) ![Screenshot of Portfolio](./readme-pics/Screen2.PNG) ![Screenshot of Blog](./readme-pics/Screen3.PNG)
 
 Contributing
 ------------
