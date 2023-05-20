@@ -16,14 +16,14 @@ const Portfolio = ({ darkModeValue }) => {
             <div className="grid grid-cols-1 gap-12 md:grid-cols-2 xl:grid-cols-3">
                 {/*card 1 */}
                 <div className="m-auto overflow-hidden rounded-lg shadow-lg cursor-pointer h-90 w-60 md:w-80">
-                    <a href="https://github.com/Ashraf-Khabar/FuncPlot-PlottingFunctionsMadeEasy" className="block w-full h-full">
-                        <img alt="blog photos" src="https://miro.medium.com/max/840/1*RJMxLdTHqVBSijKmOO5MAg.jpeg" className="object-cover w-full max-h-40" />
+                    <a href="https://github.com/Ashraf-Khabar/FLASKOSQL" className="block w-full h-full">
+                        <img alt="blog photos" src="https://blog.kakaocdn.net/dn/zmBmh/btrfREPXUNv/Jd4nKONiHm69N2z0pZKD21/img.jpg" className="object-cover w-full max-h-40" />
                         <div className="w-full p-4 bg-white dark:bg-gray-800">
                             <p className="font-medium text-indigo-500 text-md">
-                                FuncPlot-PlottingFunctionsMadeEasy
+                                FLASKOSQL
                             </p>
                             <p className="mb-2 text-xl font-medium text-gray-800 dark:text-white">
-                                FuncPlot is a user-friendly app built with Kivy and KivyMD that allows you to easily plot and visualize mathematical functions on your desktop or mobile device. With its intuitive interface and sup…
+                            FLASKOS is a ORM for Oracle db and FLASK API, it provides a simple manupilation of database and simple mapiing to simplify interaction with relational database .
                             </p>
 
                             <div className="flex items-center mt-4">
@@ -35,8 +35,8 @@ const Portfolio = ({ darkModeValue }) => {
                                     <p className="text-gray-400 dark:text-gray-300">
                                         <br />
                                         <div className="badge badge-accent badge-outline">Python</div>
-                                        <div className="badge badge-secondary  badge-outline">Kivy</div>
-                                        <div className="badge badge-accent badge-outline">KivyMD</div>
+                                        <div className="badge badge-secondary  badge-outline">ORACLE</div>
+                                        <div className="badge badge-accent badge-outline">PYPI</div>
                                     </p>
                                 </div>
                             </div>
