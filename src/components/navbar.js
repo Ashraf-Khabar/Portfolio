@@ -1,4 +1,4 @@
-import { React, useState, useTranslation } from "react"
+import { React } from "react"
 import { Link } from "react-router-dom";
 
 
@@ -10,7 +10,7 @@ const NavBar = ({ isChecked, setIsChecked, darkModeValue, setDarkModeValue }) =>
         if (!event.target.checked === false) {
             setDarkModeValue('autumn');
         } else {
-            setDarkModeValue('night');
+            setDarkModeValue('forest');
         }
     }
 

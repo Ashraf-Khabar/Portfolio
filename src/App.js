@@ -17,7 +17,7 @@ import FlaskoSQL from "./components/flaskoSQL/flaskosql";
 
 function App() {
   const [isChecked, setIsChecked] = useState(false);
-  const [darkModeValue, setDarkModeValue] = useState('night');
+  const [darkModeValue, setDarkModeValue] = useState('forest');
 
   return (
     <Router>
