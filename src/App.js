@@ -13,6 +13,7 @@ import Portfolio from "./components/projects/portfolio";
 import SocialMedia from "./components/socialmedia";
 import Resumes1 from "./components/MyResumes/Resumes1";
 import Portfolio2 from "./components/projects/portfolio2";
+import FlaskoSQL from "./components/flaskoSQL/flaskosql";
 
 function App() {
   const [isChecked, setIsChecked] = useState(false);
@@ -47,6 +48,10 @@ function App() {
 
             <Route path='/resumes' >
               <Resumes1 darkModeValue={darkModeValue} />
+            </Route>
+
+            <Route path='/flaskoSQL' >
+              <FlaskoSQL darkModeValue={darkModeValue} />
             </Route>
 
             <Route path='*'>
