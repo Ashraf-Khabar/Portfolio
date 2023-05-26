@@ -26,9 +26,10 @@ const NavBar = ({ isChecked, setIsChecked, darkModeValue, setDarkModeValue }) =>
                     </label>
                     <ul tabIndex={0} className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-72">
                         <li><Link to='/'>Homepage</Link></li>
-                        <li><Link to='/flaskoSQL'>flaskoSQL</Link></li>
+                        <li><Link to='/timos'>Timos Timer</Link></li>
                         <li><Link to='portfolio'>Portfolio</Link></li>
                         <li><Link to='/resumes'>Resumes</Link></li>
+                        <li><Link to='/flaskoSQL'>flaskoSQL</Link></li>
                         <li><Link to='/about'>About</Link></li>
                         <li><a href={pdfURL} download={filename} >CV</a></li>
                     </ul>
