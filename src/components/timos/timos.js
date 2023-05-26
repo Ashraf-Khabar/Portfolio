@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import Cookies from 'js-cookie';
 
-const Timos = () => {
+const Timos = ({ darkModeValue }) => {
     const [time, setTime] = useState(0);
     const [running, setRunning] = useState(false);
     const [studyHours, setStudyHours] = useState(0);
@@ -123,34 +123,56 @@ const Timos = () => {
     };
 
     return (
-        <div>
-            <div>
-                <button onClick={() => startTimer(40)}>40 min</button>
-                <button onClick={() => startTimer(45)}>45 min</button>
-                <button onClick={() => startTimer(50)}>50 min</button>
-                <button onClick={() => startTimer(55)}>55 min</button>
-                <button onClick={() => startTimer(60)}>60 min</button>
-            </div>
-            <div className="timer-screen">{formatTime()}</div>
-            <div>
-                <button onClick={running ? pauseTimer : restartTimer}>
-                    {running ? 'Pause Timer' : 'Restart Timer'}
-                </button>
-                <button onClick={stopTimer}>Stop Timer</button>
-            </div>
-            <div>Total Study Hours: {studyHours.toFixed(2)}</div>
-            <div>
-                <h3>To-Do List</h3>
-                <input type="text" value={newTask} onChange={handleTaskChange} />
-                <button onClick={addTask}>Add Task</button>
-                <ul>
-                    {toDoList.map((task, index) => (
-                        <li key={index}>
-                            {task}{' '}
-                            <button onClick={() => deleteTask(index)}>Delete</button>
-                        </li>
-                    ))}
-                </ul>
+        <div className="artboard min-x-screen min-h-fit center-items">
+            <div data-theme={darkModeValue} className="min-h-screen min-x-screen">
+                <center>
+                    <br /><br />
+                    <div>
+                        <button className='btn btn-outline btn-success' onClick={() => startTimer(40)}>40 min</button>&nbsp;&nbsp;
+                        <button className='btn btn-outline btn-success' onClick={() => startTimer(45)}>45 min</button>&nbsp;&nbsp;
+                        <button className='btn btn-outline btn-success' onClick={() => startTimer(50)}>50 min</button>&nbsp;&nbsp;
+                        <button className='btn btn-outline btn-success' onClick={() => startTimer(55)}>55 min</button>&nbsp;&nbsp;
+                        <button className='btn btn-outline btn-success' onClick={() => startTimer(60)}>60 min</button>&nbsp;&nbsp;
+                    </div>
+                    <br /><br />
+                    <div className="text-center text-6xl font-bold mt-8">{formatTime()}</div>
+                    <br /><br />
+                    <div>
+                        <button className="btn btn-outline btn-warning" onClick={running ? pauseTimer : restartTimer}>
+                            {running ? 'Pause Timer' : 'Restart Timer'}
+                        </button>&nbsp;&nbsp;&nbsp;&nbsp;
+                        <button className="btn btn-outline btn-warning" onClick={stopTimer}>Stop Timer</button>
+                    </div>
+                    <br /><br />
+                    <div className="text-3xl">Total Study Hours : <span className="stat-value text-primary">{studyHours.toFixed(2)} Hours</span></div>
+                    <br /><br /><br /><br />
+                    <input type="text" className="input input-bordered input-error w-full max-w-xs" value={newTask} onChange={handleTaskChange} />&nbsp;&nbsp;&nbsp;&nbsp;
+                    <button className="btn btn-outline btn-error" onClick={addTask}>Add Task</button>
+                    <br /><br />
+                    <div className="container flex justify-center items-center">
+                        <div className="overflow-x-auto">
+                            <table className="table table-zebra w-full max-w-lg">
+                                <thead>
+                                    <tr>
+                                        <th>Task</th>
+                                        <th></th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    {toDoList.map((task, index) => (
+                                        <tr key={index}>
+                                            <td>{task}</td>
+                                            <td>
+                                                <button className="btn btn-sm btn-error" onClick={() => deleteTask(index)}>Delete</button>
+                                            </td>
+                                        </tr>
+                                    ))}
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+
+                </center>
             </div>
         </div>
     );
