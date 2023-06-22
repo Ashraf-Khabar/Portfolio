@@ -24,6 +24,7 @@ const Portfolio2 = ({ darkModeValue }) => {
                             </p>
                             <p className="mb-2 text-xl font-medium text-gray-800 dark:text-white">
                                 This project is part of a group project by the students of the National School Of Applied Sciences At Tangier Morocco.
+                                This project aims to Automize the process of marking the presence of students in the school classes.
                             </p>
 
                             <div className="flex items-center mt-4">
@@ -76,6 +77,35 @@ const Portfolio2 = ({ darkModeValue }) => {
                         </div>
                     </a>
                 </div>
+                {/*card 3 */}
+                <div className="m-auto overflow-hidden rounded-lg shadow-lg cursor-pointer h-90 w-60 md:w-80">
+                    <a href="https://github.com/Ashraf-Khabar/Blogosss" className="block w-full h-full">
+                        <img alt="blog photos" src="https://raw.githubusercontent.com/sumitc91/sumitc91.github.io/master/Blogs/23a73932-d77d-4bd4-b4ab-06ea4d5183d3_c-sharp-dotnet.jpg" className="object-cover w-full max-h-40" />
+                        <div className="w-full p-4 bg-white dark:bg-gray-800">
+                            <p className="font-medium text-indigo-500 text-md">
+                                Blogosss
+                            </p>
+                            <p className="mb-2 text-xl font-medium text-gray-800 dark:text-white">
+                                Blogosss is a web-based application for creating and sharing blogs, developed by Achraf Khabar using C#, ASP.NET, Entity Framework, HTML, CSS, and JavaScript. The application follows the Model-View…
+                            </p>
+
+                            <div className="flex items-center mt-4">
+
+                                <div className="flex flex-col justify-between ml-4 text-sm">
+                                    <p className="text-gray-800 dark:text-white">
+                                        language/technologies
+                                    </p>
+                                    <p className="text-gray-400 dark:text-gray-300">
+                                        <br />
+                                        <div className="badge badge-accent badge-outline">C#</div>
+                                        <div className="badge badge-secondary  badge-outline">ASP.NET</div>
+                                        <div className="badge badge-accent badge-outline">SQLServer</div>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
             </div>
 
             <br /><br /><br /><br />
@@ -105,7 +135,6 @@ const Portfolio2 = ({ darkModeValue }) => {
                 </nav>
 
             </center>
-
 
         </div>
     )

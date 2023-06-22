@@ -23,7 +23,8 @@ const Portfolio = ({ darkModeValue }) => {
                                 FLASKOSQL
                             </p>
                             <p className="mb-2 text-xl font-medium text-gray-800 dark:text-white">
-                            FLASKOS is a ORM for Oracle db and FLASK API, it provides a simple manupilation of database and simple mapiing to simplify interaction with relational database .
+                                FLASKOS is a ORM for Oracle db and FLASK API, it provides a simple manupilation of database and simple mapiing to simplify interaction with relational database .
+                                This ORM is for optimazation and security of databases .
                             </p>
 
                             <div className="flex items-center mt-4">
@@ -76,14 +77,14 @@ const Portfolio = ({ darkModeValue }) => {
                 </div>
                 {/*card 3 */}
                 <div className="m-auto overflow-hidden rounded-lg shadow-lg cursor-pointer h-90 w-60 md:w-80">
-                    <a href="https://github.com/Ashraf-Khabar/Blogosss" className="block w-full h-full">
-                        <img alt="blog photos" src="https://raw.githubusercontent.com/sumitc91/sumitc91.github.io/master/Blogs/23a73932-d77d-4bd4-b4ab-06ea4d5183d3_c-sharp-dotnet.jpg" className="object-cover w-full max-h-40" />
+                    <a href="https://github.com/Ashraf-Khabar/Licence-plate-recognition" className="block w-full h-full">
+                        <img alt="blog photos" src="https://mobisoftinfotech.com/resources/wp-content/uploads/2022/02/og-Number-Plate-Detection.png" className="object-cover w-full max-h-40" />
                         <div className="w-full p-4 bg-white dark:bg-gray-800">
                             <p className="font-medium text-indigo-500 text-md">
-                                Blogosss
+                                Licence plate recognition using CNN
                             </p>
                             <p className="mb-2 text-xl font-medium text-gray-800 dark:text-white">
-                                Blogosss is a web-based application for creating and sharing blogs, developed by Achraf Khabar using C#, ASP.NET, Entity Framework, HTML, CSS, and JavaScript. The application follows the Model-View…
+                                About The realization of a radar system for the detection of vehicle license plates is an innovative and ambitious technological project that aims to improve road safety and facilitate the identification of vehicles in traffic
                             </p>
 
                             <div className="flex items-center mt-4">
@@ -94,9 +95,10 @@ const Portfolio = ({ darkModeValue }) => {
                                     </p>
                                     <p className="text-gray-400 dark:text-gray-300">
                                         <br />
-                                        <div className="badge badge-accent badge-outline">C#</div>
-                                        <div className="badge badge-secondary  badge-outline">ASP.NET</div>
-                                        <div className="badge badge-accent badge-outline">SQLServer</div>
+                                        <div className="badge badge-accent badge-outline">Python</div>
+                                        <div className="badge badge-secondary  badge-outline">Flask</div>
+                                        <div className="badge badge-accent badge-outline">SQL</div>
+                                        <div className="badge badge-secondary  badge-outline">API</div>
                                     </p>
                                 </div>
                             </div>
@@ -203,7 +205,7 @@ const Portfolio = ({ darkModeValue }) => {
                                 Titanic-Survival-Prediction-Model
                             </p>
                             <p className="mb-2 text-xl font-medium text-gray-800 dark:text-white">
-                                This project is a machine learning model that predicts the likelihood of survival for passengers on the Titanic based on various parameters such as age, gender, className, and fare. The model was built…
+                                Machine learning model that predicts the likelihood of survival for passengers on the Titanic based on various parameters such as age, gender, className, and fare.
                             </p>
 
                             <div className="flex items-center mt-4">
@@ -235,7 +237,7 @@ const Portfolio = ({ darkModeValue }) => {
                                 TimeSpender
                             </p>
                             <p className="mb-2 text-xl font-medium text-gray-800 dark:text-white">
-                                Smart Spender is a web application designed to help users manage and organize their money in order to avoid financial issues. In addition to ...
+                                Smart Spender is a web application designed to help users manage and organize their money in order to avoid financial issues.
                             </p>
 
                             <div className="flex items-center mt-4">
