@@ -18,7 +18,7 @@ import Timos from "./components/timos/timos";
 
 function App() {
   const [isChecked, setIsChecked] = useState(false);
-  const [darkModeValue, setDarkModeValue] = useState('forest');
+  const [darkModeValue, setDarkModeValue] = useState('dracula');
 
   return (
     <Router>

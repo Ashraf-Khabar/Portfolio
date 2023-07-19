@@ -16,7 +16,6 @@ const Cards = ({ darkModeValue }) => {
                     </p>
                 </div>
                 <div class="text-end">
-                    
                 </div>
             </div>
             <div class="grid grid-cols-1 gap-12 md:grid-cols-2 xl:grid-cols-3">

@@ -106,6 +106,34 @@ const Portfolio2 = ({ darkModeValue }) => {
                         </div>
                     </a>
                 </div>
+                {/*card 4 */}
+                <div className="m-auto overflow-hidden rounded-lg shadow-lg cursor-pointer h-90 w-60 md:w-80">
+                    <a href="https://github.com/Ashraf-Khabar/StudentGradeManager" className="block w-full h-full">
+                        <img alt="blog photos" src="https://innovativeeducation.com.bd/wp-content/uploads/2022/01/Laravel-9-Whats-New-features-in-Laravel-9.jpg" className="object-cover w-full max-h-40" />
+                        <div className="w-full p-4 bg-white dark:bg-gray-800">
+                            <p className="font-medium text-indigo-500 text-md">
+                                StudentGradeManager
+                            </p>
+                            <p className="mb-2 text-xl font-medium text-gray-800 dark:text-white">
+                                StudentGradeManager is a web application that allows for easy management of student grades by modules, subjects, and teachers. Built with Laravel and Oracle DB, this app allows teachers to view the…
+                            </p>
+                            <div className="flex items-center mt-4">
+
+                                <div className="flex flex-col justify-between ml-4 text-sm">
+                                    <p className="text-gray-800 dark:text-white">
+                                        language/technologies
+                                    </p>
+                                    <p className="text-gray-400 dark:text-gray-300">
+                                        <br />
+                                        <div className="badge badge-accent badge-outline">PHP</div>
+                                        <div className="badge badge-secondary  badge-outline">Laravel9</div>
+                                        <div className="badge badge-accent badge-outline">Oracle Db 21c</div>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
             </div>
 
             <br /><br /><br /><br />
