@@ -134,6 +134,36 @@ const Portfolio2 = ({ darkModeValue }) => {
                         </div>
                     </a>
                 </div>
+                {/*card 5 */}
+                <div className="m-auto overflow-hidden rounded-lg shadow-lg cursor-pointer h-90 w-60 md:w-80">
+                    <a href="https://github.com/Ashraf-Khabar/MoroccanCultureQuiz" className="block w-full h-full">
+                        <img alt="blog photos" src="https://cdn.wccftech.com/wp-content/uploads/2015/09/javaAndroid.jpg" className="object-cover w-full max-h-40" />
+                        <div className="w-full p-4 bg-white dark:bg-gray-800">
+                            <p className="font-medium text-indigo-500 text-md">
+                                MoroccanCultureQuiz
+                            </p>
+                            <p className="mb-2 text-xl font-medium text-gray-800 dark:text-white">
+                                A mobile app built using Java and XML that offers a fun and educational way to learn about Moroccan history through a series of quizzes. The app displays the user's score at the end of each quiz an…
+                            </p>
+
+                            <div className="flex items-center mt-4">
+
+                                <div className="flex flex-col justify-between ml-4 text-sm">
+                                    <p className="text-gray-800 dark:text-white">
+                                        language/technologies
+                                    </p>
+                                    <p className="text-gray-400 dark:text-gray-300">
+                                        <br />
+                                        <div className="badge badge-accent badge-outline">java</div>
+                                        <div className="badge badge-secondary  badge-outline">xml</div>
+                                        <div className="badge badge-accent badge-outline">android studio</div>
+                                        <div className="badge badge-secondary  badge-outline">gradel</div>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
             </div>
 
             <br /><br /><br /><br />
