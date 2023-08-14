@@ -7,7 +7,6 @@ import MONGODB from "../../docs/mongoDb.pdf";
 import REACTJS from "../../docs/reactjs.pdf";
 import CSHARP from "../../docs/csharp.pdf";
 import VUEJS from "../../docs/vue.pdf";
-import C_BEGINNER from "../../docs/C_problems.pdf";
 
 
 
@@ -16,11 +15,6 @@ const Resumes1 = ({ darkModeValue }) => {
     const handleResumeClickPLSQL = () => {
         // Replace the URL with the actual URL of your PDF file
         window.open(PlSQL, "_blank");
-    };
-
-    const handleCbegginers = () => {
-        // Replace the URL with the actual URL of your PDF file
-        window.open(C_BEGINNER, "_blank");
     };
 
     const handleResumeClickMongo = () => {
@@ -70,28 +64,6 @@ const Resumes1 = ({ darkModeValue }) => {
                 </div>
             </div>
             <div className="grid grid-cols-1 gap-12 md:grid-cols-2 xl:grid-cols-3">
-            <div className="m-auto overflow-hidden rounded-lg shadow-lg cursor-pointer h-90 w-60 md:w-80">
-                    <a onClick={handleCbegginers} className="block w-full h-full">
-                        <img alt="blog photos" src="https://img.freepik.com/free-vector/botanical-font-letter-c_53876-89205.jpg?w=2000" className="object-cover w-full max-h-40" />
-                        <div className="w-full p-4 bg-white dark:bg-gray-800">
-                            <p className="font-medium text-indigo-500 text-md">
-                                C problems for begginers
-                            </p>
-                            <div className="flex items-center mt-4">
-                                <div className="flex flex-col justify-between ml-4 text-sm">
-                                    <p className="text-gray-800 dark:text-white">
-                                        FILES
-                                    </p>
-                                    <p className="text-gray-400 dark:text-gray-300">
-                                        <br />
-                                        <div className="badge badge-accent badge-outline">PDF</div>
-                                        <div className="badge badge-secondary  badge-outline">MARKDOWN</div>
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
                 {/*card 1 */}
                 <div className="m-auto overflow-hidden rounded-lg shadow-lg cursor-pointer h-90 w-60 md:w-80">
                     <a onClick={handleResumeClickMongo} className="block w-full h-full">
