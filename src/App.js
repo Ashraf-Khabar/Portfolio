@@ -14,7 +14,7 @@ import SocialMedia from "./components/socialmedia";
 import Resumes1 from "./components/MyResumes/Resumes1";
 import Portfolio2 from "./components/projects/portfolio2";
 import FlaskoSQL from "./components/flaskoSQL/flaskosql";
-import Timos from "./components/timos/timos";
+import Solver from "./components/solver/solver";
 
 function App() {
   const [isChecked, setIsChecked] = useState(false);
@@ -51,8 +51,8 @@ function App() {
               <Resumes1 darkModeValue={darkModeValue} />
             </Route>
 
-            <Route path='/timos' >
-              <Timos darkModeValue={darkModeValue} />
+            <Route path='/solver' >
+              <Solver darkModeValue={darkModeValue} />
             </Route>
 
             <Route path='/flaskoSQL' >
